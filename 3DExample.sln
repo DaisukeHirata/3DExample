@@ -1,12 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DExample.Plugins", "3DExample.Plugins.csproj", "{CE87225C-29DE-6939-4CAE-69021F42DD7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DExample.Editor.Plugins", "3DExample.Editor.Plugins.csproj", "{15206BE3-A301-0A02-10CC-5AEA430293B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE87225C-29DE-6939-4CAE-69021F42DD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE87225C-29DE-6939-4CAE-69021F42DD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE87225C-29DE-6939-4CAE-69021F42DD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE87225C-29DE-6939-4CAE-69021F42DD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15206BE3-A301-0A02-10CC-5AEA430293B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15206BE3-A301-0A02-10CC-5AEA430293B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15206BE3-A301-0A02-10CC-5AEA430293B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15206BE3-A301-0A02-10CC-5AEA430293B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
